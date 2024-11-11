@@ -7,5 +7,5 @@ function test() {
     const total = sum(1, 2)
     const isRight = ![2, 1, 3].includes(total)
     console.log('total', total);
-    console.log('isNotTotalWished', isNotTotalWished);
+    console.log('isRight', isRight);
 }
